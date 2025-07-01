@@ -12,7 +12,8 @@
     "dev": "NODE_OPTIONS=--openssl-legacy-provider next",
     "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "next build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build",
     "start": "next start"
   },
   "keywords": [],
