@@ -20,20 +20,26 @@ export default () => {
           <Button text="MAKE AN APPOINTMENT" />
         </div>
       </div>
-      <Maincard
-        subject="WHO WE ARE"
-        title="Your Trusted Auto Repair Shop in New Brunswick"
-        text="At Ralph's Auto Repair, we've been providing quality automotive services to New Brunswick and surrounding areas since 1995. Our ASE-certified technicians use the latest diagnostic equipment to ensure your vehicle receives the best care possible. We pride ourselves on honest service, fair prices, and getting you back on the road safely."
-        img="/first-cover.png"
-        offLinks={{ display: 'none' }}
-        bg={{
-          background: 'url(/maincard-bg.png) no-repeat center center / cover',
-        }}
-      />
+      <div id="about">
+        <Maincard
+          subject="WHO WE ARE"
+          title="Your Trusted Auto Repair Shop in New Brunswick"
+          text="At Ralph's Auto Repair, we've been providing quality automotive services to New Brunswick and surrounding areas since 1995. Our ASE-certified technicians use the latest diagnostic equipment to ensure your vehicle receives the best care possible. We pride ourselves on honest service, fair prices, and getting you back on the road safely."
+          img="/first-cover.png"
+          offLinks={{ display: 'none' }}
+          bg={{
+            background: 'url(/maincard-bg.png) no-repeat center center / cover',
+          }}
+        />
+      </div>
       <Promises />
       <Video />
-      <Services />
-      <Appointment />
+      <div id="services">
+        <Services />
+      </div>
+      <div id="estimates">
+        <Appointment />
+      </div>
       <Maincard
         subject="GALLERY & LIVE STREAMS"
         title="See Our Team in Action"
@@ -44,7 +50,9 @@ export default () => {
         img="/gallery-pic.png"
         offText={{ display: 'none' }}
       />
-      <Customers />
+      <div id="reviews">
+        <Customers />
+      </div>
       <Impact />
     </Layout>
   );

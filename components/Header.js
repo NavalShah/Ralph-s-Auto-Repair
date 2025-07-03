@@ -11,9 +11,9 @@ export default () => {
             </a>
           </div>
         </div>
-        <div className="icon Header-switch" onClick={clickThat}>
+        {/* <div className="icon Header-switch" onClick={clickThat}>
           <div className="button-icon Header-switch-icon"></div>
-        </div>
+        </div> */}
         <div className="Header-right">
           <div className="Header-right-section">
             <img className="icon" src="/time.svg" alt="" />
