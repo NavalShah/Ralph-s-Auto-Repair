@@ -35,7 +35,9 @@ function Impact() {
           <h4 className="Impact-bottom-title">
             Trust Ralph's Auto Repair for all your automotive needs
           </h4>
-          <Button text="Make an Appointment" />
+          <p style={{ fontSize: '1.2rem', marginTop: '1rem' }}>
+            Call <a href="tel:7323172228" style={{ fontWeight: 'bold', color: '#007bff' }}>(732) 317-2228</a> to schedule your service
+          </p>
         </div>
       </div>
     </section>

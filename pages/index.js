@@ -17,7 +17,9 @@ export default () => {
           <h1 className="Top-title">
             Expert Auto Repair Services in New Brunswick
           </h1>
-          <Button text="MAKE AN APPOINTMENT" />
+          <a href="tel:7323172228" style={{ textDecoration: 'none' }}>
+            <Button text="CALL (732) 317-2228" />
+          </a>
         </div>
       </div>
       <div id="about">

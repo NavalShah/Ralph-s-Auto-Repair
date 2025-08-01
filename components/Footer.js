@@ -39,8 +39,8 @@ function Footer() {
               <a href="" className="Footer-main-links-container-link">
                 Specials
               </a>
-              <a href="" className="Footer-main-links-container-link">
-                Estimates
+              <a href="tel:7323172228" className="Footer-main-links-container-link">
+                Call for Estimates
               </a>
               <a href="" className="Footer-main-links-container-link">
                 Reviews
