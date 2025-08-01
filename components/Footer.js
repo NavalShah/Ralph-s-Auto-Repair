@@ -13,18 +13,7 @@ function Footer() {
               Ralph's Auto Repair has been serving New Brunswick and surrounding areas with honest, reliable auto repair services. We're committed to keeping your vehicle running safely and efficiently.
             </p>
             <div className="Footer-main-section-social">
-              <a href="" className="Footer-main-section-social-media">
-                <img src="/facebook.svg" alt="" />
-              </a>
-              <a href="" className="Footer-main-section-social-media">
-                <img src="/twitter.svg" alt="" />
-              </a>
-              <a href="" className="Footer-main-section-social-media">
-                <img src="/instagram.svg" alt="" />
-              </a>
-              <a href="" className="Footer-main-section-social-media">
-                <img src="/youtube.svg" alt="" />
-              </a>
+
             </div>
           </div>
           <div className="Footer-main-links">
