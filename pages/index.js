@@ -43,14 +43,9 @@ export default () => {
         <Appointment />
       </div>
       <Maincard
-        subject="GALLERY & LIVE STREAMS"
-        title="See Our Team in Action"
-        link1="Gallery"
-        link2="Live stream: Bay 1"
-        link3="Live stream: Bay 2"
-        link4="Live stream: Bay 3"
+
         img="/gallery-pic.png"
-        offText={{ display: 'none' }}
+        
       />
       <div id="reviews">
         <Customers />

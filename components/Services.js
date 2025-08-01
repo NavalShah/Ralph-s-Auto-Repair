@@ -42,7 +42,6 @@ function Services() {
             title="Shop Online"
             text="Browse and purchase auto parts and access service specials through our convenient online portal. Call us at (732) 317-2228 to schedule service."
           />
-          <Button text="Learn More" />
         </div>
       </div>
     </section>
