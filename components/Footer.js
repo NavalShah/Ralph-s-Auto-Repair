@@ -28,32 +28,10 @@ function Footer() {
             </div>
           </div>
           <div className="Footer-main-links">
-            <h4 className="Footer-main-links-title">EXPLORE LINKS</h4>
+            <h4 className="Footer-main-links-title"></h4>
             <div className="Footer-main-links-container">
-              <a href="" className="Footer-main-links-container-link">
-                About
-              </a>
-              <a href="" className="Footer-main-links-container-link">
-                Services
-              </a>
-              <a href="" className="Footer-main-links-container-link">
-                Specials
-              </a>
-              <a href="tel:7323172228" className="Footer-main-links-container-link">
-                Call for Estimates
-              </a>
-              <a href="" className="Footer-main-links-container-link">
-                Reviews
-              </a>
-              <a href="" className="Footer-main-links-container-link">
-                Shop
-              </a>
-              <a href="" className="Footer-main-links-container-link">
-                Careers
-              </a>
-              <a href="" className="Footer-main-links-container-link">
-                FAQs
-              </a>
+
+              
             </div>
           </div>
           <div className="Footer-main-contact">
